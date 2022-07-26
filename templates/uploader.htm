@@ -1,0 +1,1 @@
+let xhr = new XMLHttpRequest();

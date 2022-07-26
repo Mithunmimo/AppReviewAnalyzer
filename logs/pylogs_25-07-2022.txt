@@ -1,0 +1,112 @@
+2022-07-25 23:12:55,519  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.108:5000 (Press CTRL+C to quit)
+2022-07-25 23:12:55,519  * Restarting with stat
+2022-07-25 23:34:52,380 127.0.0.1 - - [25/Jul/2022 23:34:52] "GET / HTTP/1.1" 200 -
+2022-07-25 23:34:53,497 127.0.0.1 - - [25/Jul/2022 23:34:53] "POST /authenticator HTTP/1.1" 200 -
+2022-07-25 23:34:58,354 127.0.0.1 - - [25/Jul/2022 23:34:58] "POST /authenticator HTTP/1.1" 200 -
+2022-07-25 23:34:59,548 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:00,551 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:35:00,560 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:01,547 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:35:01,617 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:02,579 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:35:02,581 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:03,561 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-25 23:35:03,564 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:04,525 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-25 23:35:04,528 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:05,507 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-25 23:35:05,507 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:06,484 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-25 23:35:06,484 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:07,464 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-25 23:35:07,464 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:08,475 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:35:08,475 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:09,443 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:35:09,534 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:10,459 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:35:10,577 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:11,553 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:35:13,537 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:35:14,493 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-25 23:38:02,943 Broke for id83322
+2022-07-25 23:38:13,934 The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "W:\Projects\Python\reviewAnalayzer.py", line 90, in mis
+    if(dataset['roberta_pos'] > 0.5):
+  File "W:\Projects\Python\flaskapp\lib\site-packages\pandas\core\generic.py", line 1527, in __nonzero__
+    raise ValueError(
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2022-07-25 23:38:13,946 127.0.0.1 - - [25/Jul/2022 23:38:13] "[31m[1mPOST /upload_file HTTP/1.1[0m" 400 -
+2022-07-25 23:38:46,864  * Detected change in 'W:\\Projects\\Python\\reviewAnalayzer.py', reloading
+2022-07-25 23:38:47,584  * Restarting with stat
+2022-07-25 23:38:52,411  * Restarting with stat
+2022-07-25 23:39:00,442 127.0.0.1 - - [25/Jul/2022 23:39:00] "POST /authenticator HTTP/1.1" 200 -
+2022-07-25 23:39:01,415 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:02,459 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:39:02,463 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:03,461 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:39:03,525 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:04,479 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:39:04,479 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:05,791 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-25 23:39:05,792 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:07,203 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-25 23:39:07,205 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:08,572 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-25 23:39:08,572 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:09,584 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-25 23:39:09,587 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:10,993 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-25 23:39:10,996 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:12,382 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:39:12,385 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:13,770 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:39:13,870 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:14,882 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:39:14,985 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:18,078 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:39:19,662 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:39:21,074 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-25 23:42:13,168 Broke for id83322
+2022-07-25 23:42:23,122 App review Analyzer process Done
+Output file generated
+2022-07-25 23:42:23,124 127.0.0.1 - - [25/Jul/2022 23:42:23] "POST /upload_file HTTP/1.1" 200 -
+2022-07-25 23:43:59,864 127.0.0.1 - - [25/Jul/2022 23:43:59] "POST /authenticator HTTP/1.1" 200 -
+2022-07-25 23:44:00,480 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:01,520 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:44:01,524 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:02,479 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:44:02,489 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:03,442 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:44:03,445 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:04,423 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-25 23:44:04,427 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:05,391 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-25 23:44:05,394 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:06,341 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-25 23:44:06,344 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:07,289 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-25 23:44:07,292 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:08,255 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-25 23:44:08,258 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:09,222 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-25 23:44:09,225 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:10,178 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:44:10,270 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:11,240 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:44:11,310 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:12,271 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-25 23:44:12,275 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-25 23:44:13,235 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-25 23:46:52,613 Broke for id83322
+2022-07-25 23:47:04,226 App review Analyzer process Done
+Output file generated
+2022-07-25 23:47:04,227 127.0.0.1 - - [25/Jul/2022 23:47:04] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 00:03:09,338  * Detected change in 'W:\\Projects\\Python\\reviewAnalayzer.py', reloading
+2022-07-26 00:03:10,243  * Restarting with stat
+2022-07-26 00:04:50,171  * Restarting with stat
+2022-07-26 00:10:15,631  * Restarting with stat

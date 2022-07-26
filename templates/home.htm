@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>App Review Analyser</title>
+</head>
+<script>
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+    // setCookie("sessionID", "1m1i1t1h1u1n", 30); //set "user_email" cookie, expires in 30 days
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    function redirect(url) {
+        var ua = navigator.userAgent.toLowerCase(),
+            isIE = ua.indexOf('msie') !== -1,
+            version = parseInt(ua.substr(4, 2), 10);
+
+        // Internet Explorer 8 and lower
+        if (isIE && version < 9) {
+            var link = document.createElement('a');
+            link.href = url;
+            document.body.appendChild(link);
+            link.click();
+        }
+
+        // All other browsers can use the standard window.location.href (they don't lose HTTP_REFERER like Internet Explorer 8 & lower does)
+        else {
+            window.location.href = url;
+        }
+    }
+
+    function authenticator() {
+        console.log('authenticator running')
+        var session_id = getCookie("sessionID");
+        if (session_id == null) {
+            redirect('/login')
+        }
+        else {
+            console.log('Session Id not null');
+            let xhr = new XMLHttpRequest();
+            xhr.open("POST", "/authenticator", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            console.log('Sending session details');
+            xhr.onreadystatechange = function () {
+                if (xhr.status === 200) {
+                    console.log(xhr.status)
+                    console.log(xhr.response)
+                    // Print received data from server
+                    // result.innerHTML = this.responseText;
+
+                }
+                else {
+                    console.log('I am inside else')
+                    console.log(xhr.response)
+                    redirect('/login')
+                }
+            };
+            var dict = { "sessionID": session_id, }
+            var data = JSON.stringify(dict);
+            // Sending data with the request
+            xhr.send(data);
+        }
+    }
+    authenticator();
+
+
+</script>
+
+<body class="page">
+
+    <form class="pageitem" enctype="multipart/form-data" onsubmit="return false;">
+        <div class="pageheading">
+            App Review Analyser
+        </div>
+
+        <!-- <div>
+            <label class="pagecontents">Upload your file here</label>
+        </div> -->
+        <div>
+            <input id="uploader" class="pagecontents" type="file" id="myFile" name="filename"
+                accept=".xlsx,.xls,.csv" />
+        </div>
+        <div>
+            <button class="pagecontents" type="button" onclick="uploadFile(this.form)">Click here to Upload</button>
+        </div>
+        <div id="static_file_response"> </div>
+        <div id="downloader" style="display:none">
+            <a href="./output" download="output.csv">
+                <button class="pagecontents" type="button" ">Download
+                output</button>
+            </a>
+            
+        </div>
+    </form>
+    <div>
+        <button id=" Logout" onclick="logout()">Logout</button>
+        </div>
+</body>
+<style>
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    .page {
+        display: flex;
+        height: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right, plum, white);
+    }
+
+    .pageitem {
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        background-image: linear-gradient(to right, pink, white);
+        box-shadow: 0px 5px 30px 2px white;
+
+    }
+
+    .pageheading {
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        text-shadow: 2px 2px 2px white;
+        font-style: bold;
+        color: purple;
+        /* color: palegoldenrod; */
+        background-image: linear-gradient(pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+        ;
+    }
+
+    .pagecontents {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    input {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        text-shadow: 2px 2px 2px white;
+        border-radius: 10px;
+        font-size: 15px;
+        background-image: linear-gradient(to right, pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+    }
+
+    input:active {
+        outline: none;
+    }
+
+    button:hover {
+        color: purple;
+        box-shadow: 0px 3px 10px 1px white;
+    }
+
+    button:current {
+        box-shadow: 0px 3px 10px 1px white;
+    }
+
+    button {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        cursor: pointer;
+
+        text-shadow: 2px 2px 2px white;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px white;
+        background-image: linear-gradient(to right, pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+
+    }
+
+    #Logout {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    #Logout:hover {
+        color: purple;
+        box-shadow: 0px 3px 10px 1px red;
+    }
+</style>
+<script>
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    // function downloader() {
+    //     authenticator();
+    //     var oReq = new XMLHttpRequest();
+    //     oReq.open("GET", "output", true);
+    //     oReq.onload = function (oEvent) {
+    //         if (oReq.status == 200) {
+    //             const obj = JSON.parse(oReq.response);
+    //             oOutput.innerHTML = obj.response;
+    //             console.log(obj.response)
+    //             // oDownload.removeAttribute("style")
+
+    //         } else {
+    //             const obj = JSON.parse(oReq.response);
+    //             oOutput.innerHTML = obj.response;
+    //         }
+    //         oReq.send(json.stringify({ 'request': 'Need file to download', 'filename': 'outputFile.csv' }));
+
+    //     }
+    // }
+    function uploadFile(form) {
+        authenticator();
+        const formData = new FormData(form);
+        // console.log(form.uploader.value);
+        var uploader = document.getElementById("uploader");
+        var oOutput = document.getElementById("static_file_response")
+        var oDownload = document.getElementById("downloader")
+        if (form.uploader.value.length == 0) {
+            oOutput.innerHTML = 'No file selected';
+        }
+        else {
+            var oReq = new XMLHttpRequest();
+            oReq.timeout = 600000;
+            oReq.open("POST", "upload_file", true);
+            oReq.onload = function (oEvent) {
+                if (oReq.status == 200) {
+                    const obj = JSON.parse(oReq.response);
+                    oOutput.innerHTML = obj.response;
+                    console.log(obj.response)
+                    uploader.value = '';
+                    oDownload.removeAttribute("style")
+
+                } else {
+                    const obj = JSON.parse(oReq.response);
+                    oOutput.innerHTML = obj.response;
+                }
+            };
+            xhr.ontimeout = function (e) {
+                console.log("Our bad timeout")
+            };
+            oOutput.innerHTML = "Sending file!";
+            console.log("Sending file!")
+            oReq.send(formData);
+            oOutput.innerHTML = "Uploading file...";
+            sleep(10000)
+            oOutput.innerHTML = "Processing the file...";
+            sleep(10000)
+            oOutput.innerHTML = "Please wait for 5 mins";
+        }
+
+    }
+    function logout() {
+        document.cookie = 'sessionID' + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        redirect('/');
+    }
+</script>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>App Review Analyser</title>
+</head>
+
+
+<body class="page">
+    <form class="pageitem" enctype="multipart/form-data" onsubmit="login(this.form)">
+        <div class="pageheading">
+            App Review Analyser - Login
+        </div>
+
+        <div>
+            <input id="username" class="pagecontents" type="text" name="username" placeholder="Enter your username"
+                required />
+        </div>
+        <div>
+            <input id="password" class="pagecontents" type="password" name="password" placeholder="Enter your password"
+                required />
+        </div>
+        <div>
+            <button class="pagecontents" type="button" onclick="login(this.form)">Login</button>
+        </div>
+        <div id="static_file_response"> </div>
+    </form>
+</body>
+<style>
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    .page {
+        display: flex;
+        height: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to right, plum, white);
+    }
+
+    .pageitem {
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        background-image: linear-gradient(to right, pink, white);
+        box-shadow: 0px 10px 50px 2px purple;
+
+    }
+
+    .pageheading {
+        border-radius: 10px;
+        margin: 20px;
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        text-shadow: 2px 2px 2px white;
+        font-style: bold;
+        color: purple;
+        /* color: palegoldenrod; */
+        background-image: linear-gradient(pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+        ;
+    }
+
+    .pagecontents {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    input {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+        text-shadow: 2px 2px 2px white;
+        border-radius: 10px;
+        font-size: 15px;
+        background-image: linear-gradient(to right, pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+    }
+
+    input:focus {
+        border: none;
+        outline: none;
+    }
+
+    button:hover {
+        color: purple;
+        box-shadow: 0px 3px 10px 1px white;
+    }
+
+    button:current {
+        box-shadow: 0px 3px 10px 1px white;
+    }
+
+    button {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        cursor: pointer;
+
+        text-shadow: 2px 2px 2px white;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        text-shadow: 2px 2px 2px white;
+        background-image: linear-gradient(to right, pink, whitesmoke);
+        box-shadow: 0px 3px 10px 1px purple;
+
+    }
+</style>
+<script>
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+    function redirect(url) {
+        var ua = navigator.userAgent.toLowerCase(),
+            isIE = ua.indexOf('msie') !== -1,
+            version = parseInt(ua.substr(4, 2), 10);
+
+        // Internet Explorer 8 and lower
+        if (isIE && version < 9) {
+            var link = document.createElement('a');
+            link.href = url;
+            document.body.appendChild(link);
+            link.click();
+        }
+
+        // All other browsers can use the standard window.location.href (they don't lose HTTP_REFERER like Internet Explorer 8 & lower does)
+        else {
+            window.location.href = url;
+        }
+    }
+    function login(form) {
+
+        const formData = new FormData(form);
+
+        var oOutput = document.getElementById("static_file_response")
+        oOutput.innerHTML = ''
+        if (form.username.value.length == 0 && form.password.value.length == 0) {
+            oOutput.innerHTML = 'Please enter your credentials.';
+        }
+        else if (form.username.value.length == 0) {
+            oOutput.innerHTML = 'Please Enter your Username.';
+        }
+        else if (form.password.value.length == 0) {
+            oOutput.innerHTML = 'Please Enter your Password.';
+        }
+        else {
+            var oReq = new XMLHttpRequest();
+            oReq.open("POST", "authenticator", true);
+            oReq.onload = function (oEvent) {
+                if (oReq.status == 200) {
+                    oOutput.innerHTML = "Login Successful!";
+                    console.log(oReq.response);
+                    const obj = JSON.parse(oReq.response);
+                    console.log(obj['sessionID'])
+                    setCookie("sessionID", obj['sessionID'], 30);
+                    redirect('/');
+                } else {
+                    const obj = JSON.parse(oReq.response);
+                    oOutput.innerHTML = obj.response;
+                    console.log(obj.response)
+                    form.reset();
+                }
+            };
+            oReq.send(JSON.stringify({ 'username': form.username.value, 'password': form.password.value }));
+        }
+    }
+    // setCookie("sessionID", "1m1i1t1h1u1n", 30); //set "user_email" cookie, expires in 30 days
+</script>
+
+</html>

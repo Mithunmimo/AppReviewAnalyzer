@@ -1,0 +1,482 @@
+2022-07-26 18:31:52,864 Starting new HTTP connection (1): localhost:4040
+2022-07-26 18:32:00,818  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 18:32:00,824  * Restarting with stat
+2022-07-26 18:32:02,823 Starting new HTTP connection (1): localhost:4040
+2022-07-26 18:32:04,374  * Debugger is active!
+2022-07-26 18:32:04,390  * Debugger PIN: 388-748-301
+2022-07-26 18:32:04,852 http://localhost:4040 "GET /api/tunnels HTTP/1.1" 200 793
+2022-07-26 18:32:06,413 Starting new HTTP connection (1): localhost:4040
+2022-07-26 18:32:08,454 http://localhost:4040 "GET /api/tunnels HTTP/1.1" 200 793
+2022-07-26 18:32:20,116 127.0.0.1 - - [26/Jul/2022 18:32:20] "GET / HTTP/1.1" 200 -
+2022-07-26 18:32:21,275 127.0.0.1 - - [26/Jul/2022 18:32:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:36:43,054  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 18:36:43,056  * Restarting with stat
+2022-07-26 18:36:45,063 Starting new HTTP connection (1): localhost:4040
+2022-07-26 18:36:46,261  * Debugger is active!
+2022-07-26 18:36:46,264  * Debugger PIN: 388-748-301
+2022-07-26 18:36:47,097 http://localhost:4040 "GET /api/tunnels HTTP/1.1" 200 793
+2022-07-26 18:36:48,295 Starting new HTTP connection (1): localhost:4040
+2022-07-26 18:36:50,332 http://localhost:4040 "GET /api/tunnels HTTP/1.1" 200 793
+2022-07-26 18:36:51,642 127.0.0.1 - - [26/Jul/2022 18:36:51] "GET / HTTP/1.1" 200 -
+2022-07-26 18:36:52,778 127.0.0.1 - - [26/Jul/2022 18:36:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:36:59,014 127.0.0.1 - - [26/Jul/2022 18:36:59] "GET / HTTP/1.1" 200 -
+2022-07-26 18:37:00,108 127.0.0.1 - - [26/Jul/2022 18:37:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:37:16,475  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:37:17,186  * Restarting with stat
+2022-07-26 18:37:20,938  * Debugger is active!
+2022-07-26 18:37:20,938  * Debugger PIN: 388-748-301
+2022-07-26 18:37:27,562  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 18:37:27,564  * Restarting with stat
+2022-07-26 18:37:30,785  * Debugger is active!
+2022-07-26 18:37:30,785  * Debugger PIN: 388-748-301
+2022-07-26 18:37:32,730 127.0.0.1 - - [26/Jul/2022 18:37:32] "GET / HTTP/1.1" 200 -
+2022-07-26 18:37:33,734 127.0.0.1 - - [26/Jul/2022 18:37:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:37:36,632 127.0.0.1 - - [26/Jul/2022 18:37:36] "GET / HTTP/1.1" 200 -
+2022-07-26 18:37:37,692 127.0.0.1 - - [26/Jul/2022 18:37:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:38:06,622  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:38:06,922  * Restarting with stat
+2022-07-26 18:38:10,333  * Debugger is active!
+2022-07-26 18:38:10,343  * Debugger PIN: 388-748-301
+2022-07-26 18:38:13,012  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:38:13,307  * Restarting with stat
+2022-07-26 18:38:16,678 Opening tunnel named: http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7
+2022-07-26 18:38:16,682 ngrok process starting with PID: 3212
+2022-07-26 18:38:16,722 t=2022-07-26T18:38:16+0530 lvl=info msg="no configuration paths supplied"
+2022-07-26 18:38:16,722 t=2022-07-26T18:38:16+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\Mithu/.ngrok2/ngrok.yml
+2022-07-26 18:38:16,722 t=2022-07-26T18:38:16+0530 lvl=info msg="open config file" path=C:\\Users\\Mithu\\.ngrok2\\ngrok.yml err=nil
+2022-07-26 18:38:16,725 t=2022-07-26T18:38:16+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+2022-07-26 18:38:17,519 t=2022-07-26T18:38:17+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2022-07-26 18:38:17,519 t=2022-07-26T18:38:17+0530 lvl=info msg="client session established" obj=csess id=2d33c876637c
+2022-07-26 18:38:17,522 ngrok process has started with API URL: http://127.0.0.1:4040
+2022-07-26 18:38:17,522 Monitor thread will be started
+2022-07-26 18:38:17,523 t=2022-07-26T18:38:17+0530 lvl=info msg=start pg=/api/tunnels id=27af4979c7caa464
+2022-07-26 18:38:17,523 t=2022-07-26T18:38:17+0530 lvl=info msg=end pg=/api/tunnels id=27af4979c7caa464 status=200 dur=0s
+2022-07-26 18:38:17,524 t=2022-07-26T18:38:17+0530 lvl=info msg=start pg=/api/tunnels id=43731d34fbba1e6f
+2022-07-26 18:38:17,524 t=2022-07-26T18:38:17+0530 lvl=info msg=end pg=/api/tunnels id=43731d34fbba1e6f status=200 dur=0s
+2022-07-26 18:38:17,524 Creating tunnel with options: {'name': 'http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7', 'addr': '5000', 'proto': 'http'}
+2022-07-26 18:38:17,525 Making POST request to http://127.0.0.1:4040/api/tunnels with data: b'{"name": "http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7", "addr": "5000", "proto": "http"}'
+2022-07-26 18:38:17,526 t=2022-07-26T18:38:17+0530 lvl=info msg=start pg=/api/tunnels id=9a336a58ae2a6f30
+2022-07-26 18:38:18,058 t=2022-07-26T18:38:18+0530 lvl=info msg="started tunnel" obj=tunnels name="http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7 (http)" addr=http://localhost:5000 url=http://5661-103-163-248-24.ngrok.io
+2022-07-26 18:38:18,059 t=2022-07-26T18:38:18+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7 addr=http://localhost:5000 url=https://5661-103-163-248-24.ngrok.io
+2022-07-26 18:38:18,059 Response 201: {"name":"http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7","uri":"/api/tunnels/http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7","public_url":"https://5661-103-163-248-24.ngrok.io","proto":"https","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:38:18,059 t=2022-07-26T18:38:18+0530 lvl=info msg=end pg=/api/tunnels id=9a336a58ae2a6f30 status=201 dur=531.9565ms
+2022-07-26 18:38:18,060 Making GET request to http://127.0.0.1:4040/api/tunnels/http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7%20%28http%29 with data: None
+2022-07-26 18:38:18,061 t=2022-07-26T18:38:18+0530 lvl=info msg=start pg="/api/tunnels/http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7 (http)" id=00b1de4e149144cd
+2022-07-26 18:38:18,061 t=2022-07-26T18:38:18+0530 lvl=info msg=end pg="/api/tunnels/http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7 (http)" id=00b1de4e149144cd status=200 dur=0s
+2022-07-26 18:38:18,062 Response 200: {"name":"http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7 (http)","uri":"/api/tunnels/http-5000-daae26b5-5a13-45e2-a6b0-b1dbb74442b7%20%28http%29","public_url":"http://5661-103-163-248-24.ngrok.io","proto":"http","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:38:18,072  * Debugger is active!
+2022-07-26 18:38:18,075  * Debugger PIN: 388-748-301
+2022-07-26 18:38:20,598  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:38:20,980  * Restarting with stat
+2022-07-26 18:38:24,395 Opening tunnel named: http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3
+2022-07-26 18:38:24,399 ngrok process starting with PID: 8656
+2022-07-26 18:38:24,432 t=2022-07-26T18:38:24+0530 lvl=info msg="no configuration paths supplied"
+2022-07-26 18:38:24,432 t=2022-07-26T18:38:24+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\Mithu/.ngrok2/ngrok.yml
+2022-07-26 18:38:24,433 t=2022-07-26T18:38:24+0530 lvl=info msg="open config file" path=C:\\Users\\Mithu\\.ngrok2\\ngrok.yml err=nil
+2022-07-26 18:38:24,435 t=2022-07-26T18:38:24+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+2022-07-26 18:38:25,240 t=2022-07-26T18:38:25+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2022-07-26 18:38:25,240 t=2022-07-26T18:38:25+0530 lvl=info msg="client session established" obj=csess id=c79be8f46188
+2022-07-26 18:38:25,244 ngrok process has started with API URL: http://127.0.0.1:4040
+2022-07-26 18:38:25,244 Monitor thread will be started
+2022-07-26 18:38:25,245 t=2022-07-26T18:38:25+0530 lvl=info msg=start pg=/api/tunnels id=b25d4ce17af9ca37
+2022-07-26 18:38:25,246 t=2022-07-26T18:38:25+0530 lvl=info msg=end pg=/api/tunnels id=b25d4ce17af9ca37 status=200 dur=526.8µs
+2022-07-26 18:38:25,246 t=2022-07-26T18:38:25+0530 lvl=info msg=start pg=/api/tunnels id=577d91552f28e4dc
+2022-07-26 18:38:25,247 t=2022-07-26T18:38:25+0530 lvl=info msg=end pg=/api/tunnels id=577d91552f28e4dc status=200 dur=0s
+2022-07-26 18:38:25,247 Creating tunnel with options: {'name': 'http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3', 'addr': '5000', 'proto': 'http'}
+2022-07-26 18:38:25,247 Making POST request to http://127.0.0.1:4040/api/tunnels with data: b'{"name": "http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3", "addr": "5000", "proto": "http"}'
+2022-07-26 18:38:25,249 t=2022-07-26T18:38:25+0530 lvl=info msg=start pg=/api/tunnels id=b7c13178730b2627
+2022-07-26 18:38:25,768 t=2022-07-26T18:38:25+0530 lvl=info msg="started tunnel" obj=tunnels name="http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3 (http)" addr=http://localhost:5000 url=http://e33f-103-163-248-24.ngrok.io
+2022-07-26 18:38:25,769 t=2022-07-26T18:38:25+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3 addr=http://localhost:5000 url=https://e33f-103-163-248-24.ngrok.io
+2022-07-26 18:38:25,769 Response 201: {"name":"http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3","uri":"/api/tunnels/http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3","public_url":"https://e33f-103-163-248-24.ngrok.io","proto":"https","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:38:25,769 t=2022-07-26T18:38:25+0530 lvl=info msg=end pg=/api/tunnels id=b7c13178730b2627 status=201 dur=519.7923ms
+2022-07-26 18:38:25,770 Making GET request to http://127.0.0.1:4040/api/tunnels/http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3%20%28http%29 with data: None
+2022-07-26 18:38:25,771 t=2022-07-26T18:38:25+0530 lvl=info msg=start pg="/api/tunnels/http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3 (http)" id=2763a4461639c85b
+2022-07-26 18:38:25,771 t=2022-07-26T18:38:25+0530 lvl=info msg=end pg="/api/tunnels/http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3 (http)" id=2763a4461639c85b status=200 dur=0s
+2022-07-26 18:38:25,771 Response 200: {"name":"http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3 (http)","uri":"/api/tunnels/http-5000-b92d154e-fa44-474b-a641-d9c7024d72a3%20%28http%29","public_url":"http://e33f-103-163-248-24.ngrok.io","proto":"http","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:40:30,966 Opening tunnel named: http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54
+2022-07-26 18:40:30,981 ngrok process starting with PID: 9444
+2022-07-26 18:40:31,020 t=2022-07-26T18:40:31+0530 lvl=info msg="no configuration paths supplied"
+2022-07-26 18:40:31,020 t=2022-07-26T18:40:31+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\Mithu/.ngrok2/ngrok.yml
+2022-07-26 18:40:31,021 t=2022-07-26T18:40:31+0530 lvl=info msg="open config file" path=C:\\Users\\Mithu\\.ngrok2\\ngrok.yml err=nil
+2022-07-26 18:40:31,022 t=2022-07-26T18:40:31+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+2022-07-26 18:40:31,832 t=2022-07-26T18:40:31+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2022-07-26 18:40:31,832 t=2022-07-26T18:40:31+0530 lvl=info msg="client session established" obj=csess id=b51fec41d592
+2022-07-26 18:40:31,836 ngrok process has started with API URL: http://127.0.0.1:4040
+2022-07-26 18:40:31,836 Monitor thread will be started
+2022-07-26 18:40:31,836 t=2022-07-26T18:40:31+0530 lvl=info msg=start pg=/api/tunnels id=9827ce80c0cad005
+2022-07-26 18:40:31,837 t=2022-07-26T18:40:31+0530 lvl=info msg=end pg=/api/tunnels id=9827ce80c0cad005 status=200 dur=629.9µs
+2022-07-26 18:40:31,838 t=2022-07-26T18:40:31+0530 lvl=info msg=start pg=/api/tunnels id=b5f2e154c8902cbd
+2022-07-26 18:40:31,839 t=2022-07-26T18:40:31+0530 lvl=info msg=end pg=/api/tunnels id=b5f2e154c8902cbd status=200 dur=0s
+2022-07-26 18:40:31,839 Creating tunnel with options: {'name': 'http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54', 'addr': '5000', 'proto': 'http'}
+2022-07-26 18:40:31,839 Making POST request to http://127.0.0.1:4040/api/tunnels with data: b'{"name": "http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54", "addr": "5000", "proto": "http"}'
+2022-07-26 18:40:31,840 t=2022-07-26T18:40:31+0530 lvl=info msg=start pg=/api/tunnels id=bb20e9200fa2f1cc
+2022-07-26 18:40:32,382 t=2022-07-26T18:40:32+0530 lvl=info msg="started tunnel" obj=tunnels name="http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54 (http)" addr=http://localhost:5000 url=http://9ccf-103-163-248-24.ngrok.io
+2022-07-26 18:40:32,382 t=2022-07-26T18:40:32+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54 addr=http://localhost:5000 url=https://9ccf-103-163-248-24.ngrok.io
+2022-07-26 18:40:32,382 Response 201: {"name":"http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54","uri":"/api/tunnels/http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54","public_url":"https://9ccf-103-163-248-24.ngrok.io","proto":"https","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:40:32,383 t=2022-07-26T18:40:32+0530 lvl=info msg=end pg=/api/tunnels id=bb20e9200fa2f1cc status=201 dur=540.8384ms
+2022-07-26 18:40:32,383 Making GET request to http://127.0.0.1:4040/api/tunnels/http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54%20%28http%29 with data: None
+2022-07-26 18:40:32,383 t=2022-07-26T18:40:32+0530 lvl=info msg=start pg="/api/tunnels/http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54 (http)" id=a2323d1337064fa0
+2022-07-26 18:40:32,384 t=2022-07-26T18:40:32+0530 lvl=info msg=end pg="/api/tunnels/http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54 (http)" id=a2323d1337064fa0 status=200 dur=0s
+2022-07-26 18:40:32,384 Response 200: {"name":"http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54 (http)","uri":"/api/tunnels/http-5000-3d9a71ff-5a93-4f51-99ee-148a67efda54%20%28http%29","public_url":"http://9ccf-103-163-248-24.ngrok.io","proto":"http","config":{"addr":"http://localhost:5000","inspect":true},"metrics":{"conns":{"count":0,"gauge":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0},"http":{"count":0,"rate1":0,"rate5":0,"rate15":0,"p50":0,"p90":0,"p95":0,"p99":0}}}
+2022-07-26 18:41:11,231  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 18:41:11,234  * Restarting with stat
+2022-07-26 18:41:22,783 127.0.0.1 - - [26/Jul/2022 18:41:22] "GET / HTTP/1.1" 200 -
+2022-07-26 18:41:23,019 127.0.0.1 - - [26/Jul/2022 18:41:23] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:43:20,294  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:43:20,704  * Restarting with stat
+2022-07-26 18:43:26,670  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 18:43:26,953  * Restarting with stat
+2022-07-26 18:43:32,816 127.0.0.1 - - [26/Jul/2022 18:43:32] "GET / HTTP/1.1" 200 -
+2022-07-26 18:43:32,975 127.0.0.1 - - [26/Jul/2022 18:43:32] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:45:21,440  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 18:45:21,442  * Restarting with stat
+2022-07-26 18:46:44,189 127.0.0.1 - - [26/Jul/2022 18:46:44] "GET / HTTP/1.1" 200 -
+2022-07-26 18:46:44,836 127.0.0.1 - - [26/Jul/2022 18:46:44] "GET /login HTTP/1.1" 200 -
+2022-07-26 18:46:45,511 127.0.0.1 - - [26/Jul/2022 18:46:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:49:43,587 127.0.0.1 - - [26/Jul/2022 18:49:43] "GET / HTTP/1.1" 200 -
+2022-07-26 18:49:44,148 127.0.0.1 - - [26/Jul/2022 18:49:44] "GET /login HTTP/1.1" 200 -
+2022-07-26 18:49:44,734 127.0.0.1 - - [26/Jul/2022 18:49:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 18:49:56,765 127.0.0.1 - - [26/Jul/2022 18:49:56] "[31m[1mPOST /authenticator HTTP/1.1[0m" 400 -
+2022-07-26 18:50:24,150 127.0.0.1 - - [26/Jul/2022 18:50:24] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:50:24,700 127.0.0.1 - - [26/Jul/2022 18:50:24] "GET / HTTP/1.1" 200 -
+2022-07-26 18:50:25,657 127.0.0.1 - - [26/Jul/2022 18:50:25] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:50:52,140 127.0.0.1 - - [26/Jul/2022 18:50:52] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:51:00,606 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:01,639 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:51:01,643 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:02,613 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:51:02,675 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:03,617 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:51:03,617 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:04,620 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 18:51:04,620 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:05,628 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 18:51:05,628 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:06,566 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 18:51:06,581 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:07,554 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 18:51:07,554 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:08,563 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 18:51:08,566 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:09,576 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:51:09,580 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:10,545 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:51:10,670 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:11,674 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:51:11,753 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:12,740 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:51:13,827 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:51:14,796 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 18:54:00,939 Broke for id83322
+2022-07-26 18:54:10,268 App review Analyzer process Done
+Output file generated
+2022-07-26 18:54:10,268 127.0.0.1 - - [26/Jul/2022 18:54:10] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 18:57:07,823 127.0.0.1 - - [26/Jul/2022 18:57:07] "GET / HTTP/1.1" 200 -
+2022-07-26 18:57:08,003 127.0.0.1 - - [26/Jul/2022 18:57:08] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:57:11,880 127.0.0.1 - - [26/Jul/2022 18:57:11] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 18:57:12,383 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:13,414 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:57:13,414 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:14,403 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:57:14,417 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:15,436 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:57:15,441 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:16,427 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 18:57:16,430 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:17,437 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 18:57:17,440 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:18,436 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 18:57:18,440 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:19,429 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 18:57:19,433 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:20,415 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 18:57:20,418 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:21,393 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 18:57:21,396 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:22,353 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:57:22,430 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:23,404 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:57:23,476 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:24,473 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 18:57:24,477 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 18:57:25,454 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 18:59:44,948 Broke for id83322
+2022-07-26 18:59:54,444 App review Analyzer process Done
+Output file generated
+2022-07-26 18:59:54,447 127.0.0.1 - - [26/Jul/2022 18:59:54] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:00:07,371 127.0.0.1 - - [26/Jul/2022 19:00:07] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:00:46,321 127.0.0.1 - - [26/Jul/2022 19:00:46] "GET / HTTP/1.1" 200 -
+2022-07-26 19:00:46,911 127.0.0.1 - - [26/Jul/2022 19:00:46] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:00:49,010 127.0.0.1 - - [26/Jul/2022 19:00:49] "GET / HTTP/1.1" 200 -
+2022-07-26 19:00:49,565 127.0.0.1 - - [26/Jul/2022 19:00:49] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:00:59,939 127.0.0.1 - - [26/Jul/2022 19:00:59] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:01:07,997 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:09,022 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:01:09,025 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:10,021 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:01:10,036 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:11,005 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:01:11,008 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:11,964 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:01:11,964 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:12,953 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:01:12,953 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:13,957 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 19:01:13,957 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:14,976 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:01:14,991 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:15,996 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:01:15,996 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:16,999 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:01:16,999 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:17,987 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:01:18,049 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:19,023 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:01:19,085 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:20,088 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:01:20,088 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:01:21,091 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 19:03:40,295 Broke for id83322
+2022-07-26 19:03:49,886 App review Analyzer process Done
+Output file generated
+2022-07-26 19:03:49,886 127.0.0.1 - - [26/Jul/2022 19:03:49] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:06:28,407 127.0.0.1 - - [26/Jul/2022 19:06:28] "GET / HTTP/1.1" 200 -
+2022-07-26 19:06:34,349 127.0.0.1 - - [26/Jul/2022 19:06:34] "GET / HTTP/1.1" 200 -
+2022-07-26 19:06:34,889 127.0.0.1 - - [26/Jul/2022 19:06:34] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:06:43,769 127.0.0.1 - - [26/Jul/2022 19:06:43] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:06:58,578 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:06:59,860 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:06:59,875 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:00,860 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:07:00,860 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:01,866 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:07:01,866 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:02,869 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:07:02,869 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:03,826 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:07:03,826 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:04,810 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 19:07:04,810 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:05,795 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:07:05,810 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:06,795 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:07:06,795 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:07,816 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:07:07,816 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:08,815 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:07:08,878 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:09,874 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:07:09,999 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:10,968 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:07:10,983 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:07:11,968 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 19:07:58,728 127.0.0.1 - - [26/Jul/2022 19:07:58] "GET / HTTP/1.1" 200 -
+2022-07-26 19:07:59,498 127.0.0.1 - - [26/Jul/2022 19:07:59] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:08:06,442 127.0.0.1 - - [26/Jul/2022 19:08:06] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:08:07,019 127.0.0.1 - - [26/Jul/2022 19:08:07] "GET / HTTP/1.1" 200 -
+2022-07-26 19:08:07,761 127.0.0.1 - - [26/Jul/2022 19:08:07] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:08:11,529 127.0.0.1 - - [26/Jul/2022 19:08:11] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:08:16,307 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:17,331 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:08:17,336 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:18,321 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:08:18,328 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:19,300 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:08:19,305 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:20,333 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:08:20,339 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:21,299 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:08:21,303 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:22,458 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 19:08:22,462 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:23,596 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:08:23,600 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:24,592 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:08:24,597 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:25,576 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:08:25,582 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:26,588 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:08:26,682 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:27,627 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:08:27,712 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:28,711 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:08:28,720 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:08:29,746 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 19:10:24,287 Broke for id83322
+2022-07-26 19:10:43,261 App review Analyzer process Done
+Output file generated
+2022-07-26 19:10:43,261 127.0.0.1 - - [26/Jul/2022 19:10:43] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:11:31,191  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 19:11:31,861  * Restarting with stat
+2022-07-26 19:12:07,047 127.0.0.1 - - [26/Jul/2022 19:12:07] "GET / HTTP/1.1" 200 -
+2022-07-26 19:12:07,784 127.0.0.1 - - [26/Jul/2022 19:12:07] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:12:08,506 127.0.0.1 - - [26/Jul/2022 19:12:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 19:12:13,834 127.0.0.1 - - [26/Jul/2022 19:12:13] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:12:14,390 127.0.0.1 - - [26/Jul/2022 19:12:14] "GET / HTTP/1.1" 200 -
+2022-07-26 19:12:15,116 127.0.0.1 - - [26/Jul/2022 19:12:15] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:12:19,065 127.0.0.1 - - [26/Jul/2022 19:12:19] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:12:24,118 127.0.0.1 - - [26/Jul/2022 19:12:24] "[35m[1mPOST /upload_file HTTP/1.1[0m" 500 -
+2022-07-26 19:12:52,809  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-26 19:12:52,812  * Restarting with stat
+2022-07-26 19:13:16,951 127.0.0.1 - - [26/Jul/2022 19:13:16] "GET / HTTP/1.1" 200 -
+2022-07-26 19:13:17,610 127.0.0.1 - - [26/Jul/2022 19:13:17] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:13:18,272 127.0.0.1 - - [26/Jul/2022 19:13:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 19:13:31,010 127.0.0.1 - - [26/Jul/2022 19:13:31] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:13:31,567 127.0.0.1 - - [26/Jul/2022 19:13:31] "GET / HTTP/1.1" 200 -
+2022-07-26 19:13:32,309 127.0.0.1 - - [26/Jul/2022 19:13:32] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:13:41,088 127.0.0.1 - - [26/Jul/2022 19:13:41] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:13:46,720 127.0.0.1 - - [26/Jul/2022 19:13:46] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:13:49,398 127.0.0.1 - - [26/Jul/2022 19:13:49] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:16:20,438 127.0.0.1 - - [26/Jul/2022 19:16:20] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:16:22,822 127.0.0.1 - - [26/Jul/2022 19:16:22] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:16:27,553 127.0.0.1 - - [26/Jul/2022 19:16:27] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:16:31,822 127.0.0.1 - - [26/Jul/2022 19:16:31] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:16:34,046 127.0.0.1 - - [26/Jul/2022 19:16:34] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:16:35,958 127.0.0.1 - - [26/Jul/2022 19:16:35] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:16:37,542 127.0.0.1 - - [26/Jul/2022 19:16:37] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:17:48,494  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 19:17:48,999  * Restarting with stat
+2022-07-26 19:25:10,042 127.0.0.1 - - [26/Jul/2022 19:25:10] "GET / HTTP/1.1" 200 -
+2022-07-26 19:25:11,322 127.0.0.1 - - [26/Jul/2022 19:25:11] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:25:11,726  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 19:25:12,057  * Restarting with stat
+2022-07-26 19:26:18,606 127.0.0.1 - - [26/Jul/2022 19:26:18] "GET / HTTP/1.1" 200 -
+2022-07-26 19:26:19,547 127.0.0.1 - - [26/Jul/2022 19:26:19] "GET / HTTP/1.1" 200 -
+2022-07-26 19:26:20,431 127.0.0.1 - - [26/Jul/2022 19:26:20] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:26:21,236 127.0.0.1 - - [26/Jul/2022 19:26:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 19:26:32,049 127.0.0.1 - - [26/Jul/2022 19:26:32] "[31m[1mPOST /authenticator HTTP/1.1[0m" 400 -
+2022-07-26 19:26:33,520 127.0.0.1 - - [26/Jul/2022 19:26:33] "[31m[1mPOST /authenticator HTTP/1.1[0m" 400 -
+2022-07-26 19:26:43,566 127.0.0.1 - - [26/Jul/2022 19:26:43] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:26:44,336 127.0.0.1 - - [26/Jul/2022 19:26:44] "GET / HTTP/1.1" 200 -
+2022-07-26 19:26:45,125 127.0.0.1 - - [26/Jul/2022 19:26:45] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:26:53,622 127.0.0.1 - - [26/Jul/2022 19:26:53] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:27:04,273 127.0.0.1 - - [26/Jul/2022 19:27:04] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:27:07,240 127.0.0.1 - - [26/Jul/2022 19:27:07] "GET /output HTTP/1.1" 200 -
+2022-07-26 19:39:01,456  * Detected change in 'W:\\Projects\\Python\\server.py', reloading
+2022-07-26 19:39:01,851  * Restarting with stat
+2022-07-26 19:41:57,294 127.0.0.1 - - [26/Jul/2022 19:41:57] "GET / HTTP/1.1" 200 -
+2022-07-26 19:41:57,907 127.0.0.1 - - [26/Jul/2022 19:41:57] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:41:58,633 127.0.0.1 - - [26/Jul/2022 19:41:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 19:42:03,281 127.0.0.1 - - [26/Jul/2022 19:42:03] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:42:03,831 127.0.0.1 - - [26/Jul/2022 19:42:03] "GET / HTTP/1.1" 200 -
+2022-07-26 19:42:04,463 127.0.0.1 - - [26/Jul/2022 19:42:04] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:42:08,552 127.0.0.1 - - [26/Jul/2022 19:42:08] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:42:19,070 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:20,070 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:42:20,085 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:21,041 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:42:21,087 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:22,077 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:42:22,077 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:23,030 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:42:23,030 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:23,991 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:42:24,006 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:34,725 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:35,714 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:42:35,717 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:36,687 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:42:36,692 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:37,678 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:42:37,682 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:38,644 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:42:38,739 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:42:45,859 127.0.0.1 - - [26/Jul/2022 19:42:45] "GET / HTTP/1.1" 200 -
+2022-07-26 19:42:46,589 127.0.0.1 - - [26/Jul/2022 19:42:46] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:43:26,155  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.108:5000 (Press CTRL+C to quit)
+2022-07-26 19:43:26,155  * Restarting with stat
+2022-07-26 19:43:44,361 127.0.0.1 - - [26/Jul/2022 19:43:44] "GET / HTTP/1.1" 200 -
+2022-07-26 19:43:44,981 127.0.0.1 - - [26/Jul/2022 19:43:44] "GET /login HTTP/1.1" 200 -
+2022-07-26 19:43:45,678 127.0.0.1 - - [26/Jul/2022 19:43:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-07-26 19:44:25,332 127.0.0.1 - - [26/Jul/2022 19:44:25] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:44:25,874 127.0.0.1 - - [26/Jul/2022 19:44:25] "GET / HTTP/1.1" 200 -
+2022-07-26 19:44:26,615 127.0.0.1 - - [26/Jul/2022 19:44:26] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:44:31,418 127.0.0.1 - - [26/Jul/2022 19:44:31] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:44:46,776 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:44:57,517 Connection error, and we cannot find the requested files in the cached path. Please try again or make sure your Internet connection is on.
+Traceback (most recent call last):
+  File "W:\Projects\Python\reviewAnalayzer.py", line 89, in mis
+    dataset = initialise()
+  File "W:\Projects\Python\reviewAnalayzer.py", line 53, in initialise
+    tokenizer = AutoTokenizer.from_pretrained(MODEL)
+  File "W:\Projects\Python\flaskapp\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 522, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "W:\Projects\Python\flaskapp\lib\site-packages\transformers\models\auto\tokenization_auto.py", line 380, in get_tokenizer_config
+    resolved_config_file = get_file_from_repo(
+  File "W:\Projects\Python\flaskapp\lib\site-packages\transformers\utils\hub.py", line 687, in get_file_from_repo
+    resolved_file = cached_path(
+  File "W:\Projects\Python\flaskapp\lib\site-packages\transformers\utils\hub.py", line 284, in cached_path
+    output_path = get_from_cache(
+  File "W:\Projects\Python\flaskapp\lib\site-packages\transformers\utils\hub.py", line 554, in get_from_cache
+    raise ValueError(
+ValueError: Connection error, and we cannot find the requested files in the cached path. Please try again or make sure your Internet connection is on.
+2022-07-26 19:44:57,517 127.0.0.1 - - [26/Jul/2022 19:44:57] "[31m[1mPOST /upload_file HTTP/1.1[0m" 400 -
+2022-07-26 19:45:46,729 127.0.0.1 - - [26/Jul/2022 19:45:46] "GET / HTTP/1.1" 200 -
+2022-07-26 19:45:47,442 127.0.0.1 - - [26/Jul/2022 19:45:47] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:45:51,525 127.0.0.1 - - [26/Jul/2022 19:45:51] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:46:06,668 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:07,701 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:46:07,701 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:08,725 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:46:08,753 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:09,730 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:46:09,730 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:10,733 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:46:10,733 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:11,730 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:46:11,730 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:12,728 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 19:46:12,728 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:13,762 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:46:13,762 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:14,761 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:46:14,761 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:15,746 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:46:15,746 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:16,714 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:46:16,782 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:17,800 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:46:17,862 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:18,852 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:46:20,026 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:46:21,047 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 19:48:49,022 Broke for id83322
+2022-07-26 19:48:58,254 App review Analyzer process Done
+Output file generated
+2022-07-26 19:48:58,254 127.0.0.1 - - [26/Jul/2022 19:48:58] "POST /upload_file HTTP/1.1" 200 -
+2022-07-26 19:50:05,593 127.0.0.1 - - [26/Jul/2022 19:50:05] "GET / HTTP/1.1" 200 -
+2022-07-26 19:50:06,355 127.0.0.1 - - [26/Jul/2022 19:50:06] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:53:16,232 127.0.0.1 - - [26/Jul/2022 19:53:16] "POST /authenticator HTTP/1.1" 200 -
+2022-07-26 19:53:22,900 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:23,861 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:53:23,861 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:24,861 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:53:24,876 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:25,892 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:53:25,892 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:26,921 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 200 0
+2022-07-26 19:53:26,921 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:27,923 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/merges.txt HTTP/1.1" 200 0
+2022-07-26 19:53:27,923 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:28,938 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2022-07-26 19:53:28,938 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:29,957 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2022-07-26 19:53:29,957 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:30,882 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+2022-07-26 19:53:30,898 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:31,902 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+2022-07-26 19:53:31,905 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:32,876 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:53:32,958 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:33,970 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:53:34,043 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:35,029 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 200 0
+2022-07-26 19:53:35,029 Starting new HTTPS connection (1): huggingface.co:443
+2022-07-26 19:53:36,063 https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2022-07-26 19:56:03,165 Broke for id83322
+2022-07-26 19:56:13,343 App review Analyzer process Done
+Output file generated
+2022-07-26 19:56:13,345 127.0.0.1 - - [26/Jul/2022 19:56:13] "POST /upload_file HTTP/1.1" 200 -
